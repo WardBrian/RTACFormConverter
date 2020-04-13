@@ -26,3 +26,4 @@ Converts the outputs of a Google form response sheet with many lighting requests
  * Give a list of descriptive names to the information given for each cue, in the order it appears in the spreadsheet. Similar to preamble, these names can be anything, but the default of `Time, Fade, Feeling, Cyc, Happening` matches RTAC conventions for the past several years.
  * Specify the maximum number of cues that the program should read. `25` is the default.
  * Hit convert
+ * This will generate a bunch of .csv files, one for each dance. Re-upload these to Google Drive, and when you open them in sheets they will be converted back into Google Sheets files.
