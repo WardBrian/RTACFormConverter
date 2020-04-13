@@ -21,6 +21,7 @@ class Application(tk.Frame):
         super().__init__(master)
         self.master = master
         self.rownum = 0
+        tk.Label(self.master, text=" ").grid(row=0,column=0)
 
         tk.Label(self.master, text="Please enter the input filename (without extension)").grid(row=self.row(),column=1)
         self.file_text = tk.Entry(self.master)
@@ -99,7 +100,9 @@ def convert(filename, preamble, cue_info, num_cues, out_field, out_info):
 
 # Create the application window
 root = tk.Tk()
-root.minsize(width=600, height=300)
+# root.minsize(width=630, height=300)
+root.geometry("630x300")
+root.resizable(0, 0)
 root.title("RTAC CSV Converter")
 app = Application(master=root)
 app.mainloop()
