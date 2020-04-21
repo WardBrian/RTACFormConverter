@@ -22,7 +22,8 @@ Converts the outputs of a Google form response sheet with many lighting requests
     Costume Color | Blue
     Costume Texture | Sequins
     Music Length | 6:04
-    but this can be easily customized by changing which pieces of info appear in what order.
+    
+but this can be easily customized by changing which pieces of info appear in what order.
  * Give a list of descriptive names to the information given for each cue, in the order it appears in the spreadsheet. Similar to preamble, these names can be anything, but the default of `Time, Fade, Feeling, Cyc, Happening` matches RTAC conventions for the past several years.
  * Specify the maximum number of cues that the program should read. `25` is the default.
  * Hit convert
