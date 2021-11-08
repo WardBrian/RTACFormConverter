@@ -10,7 +10,7 @@ Converts the outputs of a Google form response sheet with many lighting requests
  * Give names to the "preamble" of the responses sheet. This lets the app know what information to expect *before* it starts seeing cues. The default is `time, bcemail, Song, Contact Name, Email, Costume Color, Costume Texture, Music Length`. This means it expects to see those items of information as the first 8 columns of the sheet, **in that order**. Each name must be seperated by a comma.  
     * This default is for the 2020 Dance Group form. For the 2019 WOD form, a preamble description may look like 
     `time, bcemail, Group Name, Email, Costume Color, Costume Texture, Song, Music Length`
-    * These names are used later and they must match **exactly** when used again.
+    * These names are used later and they must match **exactly** when used again (they are case sensitive!).
         * These names are not magic -- changing `Song` to `xchshwDGD` wouldn't matter, as long as you were consistent
  * Pick **one of the above pieces of information** to be the name of the output file. The default is `Song`.
  * Describe which preamble information of the above should be put in the header of each file. The default is `Song, Contact Name, Email, Costume Color, Costume Texture, Music Length`.
